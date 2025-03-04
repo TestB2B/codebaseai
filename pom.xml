@@ -4,20 +4,23 @@
   <artifactId>codebaseai</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <dependencies>
-
-  <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 <dependency>
-    <groupId>org.seleniumhq.selenium</groupId>
-    <artifactId>selenium-java</artifactId>
-    <version>4.26.0</version>	  <!-- https://mvnrepository.com/artifact/org.testng/testng -->
-</dependency>
-<dependency>
-
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
     <version>7.10.2</version>
     <scope>test</scope>
 </dependency>  
-
+<!-- https://mvnrepository.com/artifact/org.webjars.npm/webdriver-manager -->
+<dependency>
+    <groupId>org.webjars.npm</groupId>
+    <artifactId>webdriver-manager</artifactId>
+    <version>13.0.0-beta</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>4.28.1</version>
+</dependency>
   </dependencies>
 </project>
