@@ -18,6 +18,12 @@
     <version>7.10.2</version>
     <scope>test</scope>
 </dependency>  
+<!-- https://mvnrepository.com/artifact/org.webjars.npm/webdriver-manager -->
+<dependency>
+    <groupId>org.webjars.npm</groupId>
+    <artifactId>webdriver-manager</artifactId>
+    <version>13.0.0-beta</version>
+</dependency>
 
-  </dependencies>
+</dependencies>
 </project>
